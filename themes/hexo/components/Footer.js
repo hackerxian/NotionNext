@@ -14,7 +14,7 @@ const Footer = ({ title }) => {
 
   return (
     <footer className=" dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6">
-      <DarkModeButton />
+      {/* <DarkModeButton /> */}
       <i className="fas fa-copyright" /> {`${copyrightDate}`}{' '}
       <span>
         <i className="mx-1 animate-pulse fas fa-heart" />{' '}
