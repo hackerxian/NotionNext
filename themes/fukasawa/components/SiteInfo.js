@@ -9,6 +9,7 @@ function SiteInfo({ title }) {
     }
     return currentYear
   })()
+
   return (
     <footer className="leading-6 justify-start w-full text-gray-400 text-xs font-sans">
       <span>
@@ -42,7 +43,7 @@ function SiteInfo({ title }) {
           <span className="px-1 busuanzi_value_site_uv"> </span>{' '}
         </span>
         <br />
-        {/* <span className="text-xs font-serif">
+        <span className="text-xs font-serif">
           {' '}
           Powered by{' '}
           <a
@@ -51,7 +52,7 @@ function SiteInfo({ title }) {
           >
             NotionNext {BLOG.VERSION}
           </a>
-        </span> */}
+        </span>
         <br />
       </span>
       <h1>{title}</h1>
