@@ -65,6 +65,7 @@
     "eslint-plugin-react": "^7.23.2",
     "next-sitemap": "^1.6.203",
     "postcss": "^8.2.15",
+    "prettier": "^2.7.1",
     "tailwindcss": "^2.1.2",
     "webpack-bundle-analyzer": "^4.5.0"
   },
